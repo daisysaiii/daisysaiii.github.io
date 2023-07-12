@@ -1,0 +1,497 @@
+@import url(clash-display.css);
+@import url(general-sans.css);
+@import url(red-hat-display.css);
+.root{
+  transition: all 0.5s ease;
+}
+
+.scroll{
+  margin-top: 20px;
+}
+.navbar-custom{
+  background: #ffe0d9;
+  height: 50px;
+}
+
+.navbar-text{
+  color: #007f46;
+  font-size: 14px;
+  margin-right: 60px;
+  white-space:pre;
+}
+.navbar-text:hover{
+  color:rgb(82, 196, 182)
+}
+.navbar-brand{
+  margin-left: 20px;
+}
+.hellomain{
+  background-image: url(../素材/1主视觉+背景图/主视觉1（300dpi）.jpg);
+  background-size: contain;
+  background-size: 100%;
+}
+.hellomain1{
+  background-image: url(../素材/1主视觉+背景图/主视觉2（300dpi）.jpg);
+  background-size: contain;
+  background-size: 100%;
+  margin: 0%;
+}
+.aaa{
+  height: 35px;
+}
+canvas{
+ padding-left: 100px;
+ padding-right: 100px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.hello-text{
+  margin-left:70px;
+  margin-right: 0;
+  padding-right: 0;
+  margin-top: 120px;
+  color:#ECECEC;
+}
+.hello-begin{
+  font-family: 'AlibabaPuHuiTi-2-35-Thin';
+  margin-top: 70px;
+  margin-left: 30px;
+  font-size:50px;
+}
+.hello-emoji{
+  padding-left: 10px;
+  margin-top: 180px;
+  transform: rotate(-45deg);
+}
+.person{
+  margin-top: 10px;
+  margin-left: 45px;
+}
+.intro{
+  color: #ECECEC;
+  margin-left: 100px;
+  font-size: 25px;
+  font-family: '日本花园明朝体';
+  line-height: 200%;
+  word-spacing: 3px;
+}
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social{
+  margin-left: 1000px;
+}
+a{
+  text-decoration: none;
+}
+.im{
+  width: 160px;
+  height: auto;
+}
+.icon-trans{
+  margin-left: 15px;
+  margin-right: 15px;
+  transition: all 0.5s ease;
+}
+.icon-trans:hover{
+  transform: scale(1.2);
+}
+.ca{
+  height: 30px;
+  width: auto;
+}
+.opacity-0{
+  margin: 30px;
+}
+.about{
+  background:url(../素材/1主视觉+背景图/背景图.jpg)
+
+}
+.abt{
+  padding-top: 60px;
+}
+.workgirl{
+ background: url(../素材/2首页-往期活动部分/沙画.jpg);
+background-size: cover;
+margin-left: 40px;
+}
+.workgirl1{
+  background: url(../素材/2首页-往期活动部分/陶艺.jpg);
+ background-size: cover;
+ margin-left: 40px;
+ }
+.about-me-title{
+  color: #00bf8c;
+  word-spacing: 4px;
+  margin-top: 100px;
+  text-align: center;
+}
+.info-title{
+  color: #00bf8c;
+  word-spacing: 4px;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.info-content{
+  color:  #00bf8c;
+  padding-left: 60px;
+  font-size: 18px;
+  font-family: 'AlibabaPuHuiTi-2-35-Thin';
+  line-height: 200%;
+  word-spacing: 3px;
+  margin-top: 20px;
+}
+
+.teacher{
+  color: #00bf8c;
+  word-spacing: 4px;
+  padding-top: 80px;
+  text-align: center;
+}
+.cc{
+  margin: 60px;
+}
+.education{
+  background:url(../素材/1主视觉+背景图/背景图.jpg)
+
+}
+.cal1{
+  width: 800px;
+  margin: auto;
+  padding-top: 30px;
+}
+.cal2{
+  width: 550px;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+.card{
+  margin: 30px;
+}
+.card-body{
+  margin: 30px;
+}
+.shudong{
+  color: #00bf8c;
+  word-spacing: 4px;
+  margin-top: 30px;
+  text-align: center;
+}
+.b{
+  margin-left: 280px;
+  margin-top: 30px;
+  padding-left: 40px;
+}
+.fm{
+  margin: 30px;
+}
+.nmpics{
+  margin-left: 70px;
+}
+.dspics{
+  margin-left: 60px;
+}
+.cuc-logo{
+  height: 60px;
+  width: 108px;
+}
+.umich-logo{
+  height: 60px;
+  width: 108px;
+}
+.u-title{
+  color: #ECECEC;
+  font-family: 'ClashDisplay';
+  word-spacing: 4px;
+  margin-top: 35px;
+}
+.umich-t{
+  margin-left: 430px;
+}
+.u-degree{
+  color: #ECECEC;
+  font-size: 15px;
+  font-family: 'ClashDisplay-Light';
+  word-spacing: 2px;
+  line-height: 50%;
+  margin-top: 4px;
+}
+
+.umich-date{
+  margin-left: 47px;
+}
+.aa-t{
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: 'ClashDisplay';
+}
+.as{
+  line-height: 150%;
+  font-size: 17px;
+}
+.um-a-t{
+  margin-left: 678px;
+  margin-top: 25px;
+}
+
+.um-degree{
+  margin-left: 557px;
+}
+.um-date{
+  margin-left: 604px;
+}
+.um-sp{
+  margin-left: 90px;
+  line-height: 180%;
+}
+.lifestyle{
+  background:url(../素材/1主视觉+背景图/背景图.jpg)
+}
+.lf1{
+  padding-top: 80px;
+}
+.life-1{
+  color: #ECECEC;
+  font-family: 'ClashDisplay-SemiBold';
+  font-size: 35px;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.travel-pics{
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.places-t-con{
+  color: #ECECEC;
+  font-family: 'ClashDisplay-Medium';
+  word-spacing: 4px;
+  margin-top: 35px;
+  padding-left: 45px;
+}
+.places-text{
+  color: #ECECEC;
+  font-family: 'ClashDisplay-Light';
+  word-spacing: 2px;
+  margin-left: 20px;
+  padding-right: 100px;
+  font-size: 18px;
+}
+.driving-t-pics{
+  padding-left: 30px;
+}
+.driving-t-con{
+  color: #ECECEC;
+  font-family: 'ClashDisplay-Medium';
+  word-spacing: 4px;
+  margin-top: 40px;
+margin-left: 340px;
+}
+.cd{
+  padding: 10px;
+  margin-top: 50px;
+  transition: all 0.5s ease;
+}
+.card{
+  border-radius: 20px;
+}
+.cd0{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.cd:hover{
+  transform: scale(1.05);
+}
+.c-img{
+  border-radius: 30px;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.card-text{
+  font-family: 'ClashDisplay-Medium';
+  line-height: 100%;
+}
+.c-t1{
+  font-size: 20px;
+}
+
+.c-t2{
+  font-size: 15px;
+  line-height: 200%;
+}
+.c-t3{
+  font-size: 15px;
+  line-height: 250%;
+}
+.music-t-con{
+  margin-left: 360px;
+}
+.contact{
+  background-color: #1b1e35;
+}
+.contact-pics{
+  height: auto;
+  width: 400px;
+  margin-top: 50px;
+}
+.contact-t-t{
+  color: #ECECEC;
+  font-size: 30px;
+  font-family: 'ClashDisplay-Medium';
+  word-spacing: 3px;
+  margin-left: 90px;
+}
+.contact-text{
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 30px;
+}
+.skills{
+  background-color: #1b1e35;
+}
+.skill-main{
+padding-top: 80px;
+}
+.skills-ic{
+  color: #bdbdbd;
+  margin: 5px;
+}
+.skills-ic:hover{
+  color: #744dff;
+}
+.skills-con{
+  color: #ECECEC;
+  font-family: 'ClashDisplay';
+  word-spacing: 3px;
+}
+.s-c{
+  font-family: 'ClashDisplay-Light';
+  font-size: 18px;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+.coding-list{
+  margin-top: 15px;
+}
+.c-l{
+  float: left;
+  margin: 8px;
+}
+.skill-pics{
+margin-left: 80px;
+}
+.ic-n{
+  color: #bdbdbd;
+  font-family: 'ClashDisplay-Light';
+  font-size: 8px;
+  text-align: center;
+}
+.skills-detail{
+  color: #ECECEC;
+  font-family: 'ClashDisplay-Light';
+  word-spacing: 2px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+.contact-t1{
+  color: #bdbcbc;
+  font-family: 'ClashDisplay';
+  word-spacing: 2px;
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.contact-place{
+  color:  #ECECEC;
+  font-family: 'ClashDisplay';
+  word-spacing: 2px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+.social-media{
+  margin-top: 200px;
+
+}
+video{
+  width: 400px;
+  height: auto;
+}
+
+.contact-main{
+  padding-top: 30px;
+}
+.contact-last{
+  color:  #00bf8c;
+  font-family: 'ClashDisplay';
+  word-spacing: 2px;
+  font-size: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+section{
+  background:url(../素材/1主视觉+背景图/背景图.jpg);
+  background-size: contain;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#bef4f5;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+  margin: auto;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
