@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>infO*</title>
+    <link rel="icon" href="img/bitbug_favicon.ico" type="image/x-icon"/>
+  </head>
+
+
+<style>
+  body {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    color: #dd3748;
+    text-transform: none;
+    font-weight: 50px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    max-width: 1650px;
+  }
+
+  #top-middle,
+  #bottom-left,
+  #bottom-right {
+    background-color:#dd3748;
+  }
+
+  #top-middle {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #bottom-middle {
+    background-image: url(img/bg_12.png);
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #bottom-left {
+    display: grid;
+    align-items: center;
+  }
+
+  #bottom-left h2 {
+    font-size: 45px;
+    margin: 0;
+    letter-spacing: 5px;
+    align-self: end;
+  }
+
+  #bottom-left h2 span {
+    font-size: 60px;
+  }
+
+  #bottom-left h3 {
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 5px;
+    align-self: start;
+  }
+
+  #bottom-right {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  form {
+    grid-column: 1;
+    line-height: 15px;
+    display: grid;
+    padding: 5% 5% 10% 1%;
+  }
+
+  form div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px dashed #d5443e;
+  }
+
+  h1#main-kodak,
+  h2#film,
+  h2#wallet {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  h1#main-kodak {
+    justify-self: center;
+    align-self: center;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+
+  h2#wallet {
+    justify-self: center;
+    align-self: end;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-left: -119px;
+    margin-bottom: 30px;
+  }
+
+  h2#film {
+    justify-self: center;
+    align-self: end;
+    font-size: 50px;
+    letter-spacing: 0px;
+    margin-left: 25px;
+    margin-bottom: 45px;
+  }
+
+
+
+  #bottom-left h6,
+  #bottom-left h6 {
+    color: white;
+    text-align: center;
+  }
+
+
+  #girl {
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: end;
+    max-height: 800px;
+  }
+
+  #ko {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    align-self: center;
+    margin-top: 25px;
+    height: 75px;
+  }
+
+  #odak {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: start;
+    align-self: center;
+    margin-top: 17px;
+    height: 82px;
+  }
+
+  @media (min-width: 1651px) {
+    body {
+      margin-top: 5%;
+    }
+  }
+
+  @media (max-width: 1020px) {
+    body {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(4, auto);
+    }
+
+    #girl,
+    #top-middle {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    #girl {
+      height: 500px;
+    }
+
+
+    h1#sm-title {
+      grid-row: 1;
+      grid-column: 1 / 3;
+      justify-self: center;
+      font-size: 7vw;
+      letter-spacing: 3px;
+
+    }
+
+    #odak,
+    #ko,
+    #blue-box {
+      display: none;
+    }
+
+    form {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    h1#main-kodak {
+      display: none;
+    }
+
+    h2#film,
+    h2#wallet {
+  display: none;
+    }
+
+
+    #bottom-middle {
+      grid-column: 1;
+      grid-row: 3;
+    }
+
+    #bottom-left {
+      grid-column: 2;
+      grid-row: 3;
+    }
+
+    #bottom-right {
+      display: none;
+    }
+  }
+
+  @media (max-width: 535px) {
+
+    body {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(3, auto);
+    }
+
+    h1#main-kodak {
+     display: none;
+
+    }
+
+     h1#sm-title {
+      grid-row: 1;
+      grid-column: 2;
+      align-self: center;
+      color: white;
+      font-size: 22px;
+
+    }
+
+    h2#film,
+    h2#wallet{
+      display: none;
+    }
+
+    #top-middle {
+      grid-column: 1 / 3;
+      grid-row: 1;
+    }
+
+    #girl {
+      grid-column: 1;
+      grid-row: 1;
+      height: 200px;
+      justify-self: center;
+    }
+
+    form {
+      grid-column: 1 / 3;
+      grid-row: 2;
+      padding: 5%;
+    }
+
+    #bottom-middle {
+      grid-column: 1;
+      grid-row: 3;
+    }
+
+    #bottom-left {
+      grid-column: 2;
+      grid-row: 3;
+    }
+
+    #bottom-right {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1021px) {
+    h1#main-kodak::first-letter {
+      color: #d6c092;
+    }
+
+    h1#main-kodak span {
+      background: -webkit-linear-gradient(-0deg, #d6c092 50%, #203467 50%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+      h1#main-kodak {
+      display: none;
+    }
+
+    #sm-title {
+      display: none;
+    }
+  }
+  </style>
+
+
+  <body>
+    <form>
+  <div>
+    <label for="name">王芊雪<br>Wang Qianxue</label>
+    <input type="text" name="name">
+  </div>
+  <div>
+    <label for="size">中国传媒大学视觉传达设计<br>Visual Communication Design</label>
+    <input type="text" name="size">
+  </div>
+  <div>
+    <label for="spools">公众号:SevenPower</label>
+    <input type="text" name="spools">
+  </div>
+  <div>
+    <label for="prints">Ins:daisysaiii_</label>
+    <input type="text" name="prints">
+  </div>
+
+</form>
+<div id="top-middle"></div>
+<h1 id="main-kodak">Kodak</h1>
+<img id="ko" src="img/ab.png">
+<img id="odak" src="img/out_1.png">
+<h2 id="film">Daisysaiii</h2>
+<h2 id="wallet">Enjoy🥡</h2>
+<h1 id="sm-title">About<br>Daisysaiii</h1>
+<img id="blue-box" src="">
+<div id="bottom-left">
+  <h6><span>since</span><br>2023</h6>
+</div>
+<div id="bottom-middle"></div>
+<img id="girl" src="img/gif/飘.gif">
+<div id="bottom-right"></div>
+
+
+<!-- Note to self: Fix id and class names-->
+  </body>
+</html>

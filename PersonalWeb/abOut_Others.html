@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>abOut*Others</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/jq22-demo.css">
+	<link rel="icon" href="img/bitbug_favicon.ico" type="image/x-icon"/>
+	<style>
+		*{margin:0; padding:0;}
+		body{margin:0; padding:0; overflow-y: hidden; background-image: url(img/gif/黑的.gif);}
+		li{list-style-type:none;}
+		#frame img{
+			width: 100%;
+			height: 100vh;
+			object-fit: contain;
+		}
+
+		#radioWrap{
+			width:20px;
+			height:180px;
+			position:absolute;
+			right:5%;
+			top:50%;
+			margin-top: -90px;}
+
+		#radio{width:100%; height:100%; overflow: hidden;}
+
+		#radio li{
+			width:10px;
+			height:10px;
+			background-color: rgba(255,255,255, 0.5);
+			text-indent: -10000px;
+			border-radius: 50%;
+			margin-top: 12px;
+			cursor:pointer;}
+		#radio li:first-child{margin-top:0;}
+
+		#radioOn{
+			width:10px;
+			height:10px;
+			margin-bottom:12px;
+			position: absolute;
+			top:0; left:0;
+			background-color: #fff;
+			border-radius: 50%;}
+	</style>
+
+</head>
+<body>
+	<div id="view">
+		<div id="frame">
+			<div class="op-section">
+				<img src="img/bus.png" alt="">
+			</div>
+			<div class="op-section second"><img src="img/kk.png" alt=""></div>
+			  <div class="op-section fifth">  <img src="img/gif/hua.gif" alt=""></div>
+		</div>
+	</div>
+	<div id="radioWrap">
+		<ul id="radio">
+			<li>section0</li>
+			<li>section1</li>
+			<li>section2</li>
+
+		</ul>
+		<span id="radioOn"></span>
+	</div>
+
+	<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+	<script src="js/onepage.js"></script>
+	<script>
+		$(document).ready(function(){
+			startOnePage({
+				frame: "#view",
+				container: "#frame",
+				sections: ".op-section",
+				radio: "#radio",
+				radioOn: "#radioOn",
+				speed: 500,
+				easing: "swing"
+			});
+		});
+	</script>
+</body>
+</html>
