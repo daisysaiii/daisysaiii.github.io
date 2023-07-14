@@ -1,0 +1,240 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+.chair{
+  position: absolute;
+  left:100px;
+  top:300px;
+  cursor:
+}
+
+/* 悬浮 */
+.chair {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.chair:hover, .chair:focus, .chair:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.饭盒{
+  position: absolute;
+  left:200px;
+  top:590px
+}
+
+/* 悬浮 */
+.饭盒 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.饭盒:hover, .饭盒:focus, .饭盒:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.壶{
+  position: absolute;
+  left:370px;
+  top:460px
+}
+
+/* 悬浮 */
+.壶 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.壶:hover, .壶:focus, .壶:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.盒{
+  position: absolute;
+  left:1250px;
+  top:200px
+}
+
+/* 悬浮 */
+.盒 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.盒:hover, .盒:focus, .盒:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.夹子{
+  position: absolute;
+  left:1050px;
+  top:240px
+}
+
+/* 悬浮 */
+.夹子 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.夹子:hover, .夹子:focus, .夹子:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.水龙头{
+  position: absolute;
+  left:1250px;
+  top:400px
+}
+
+/* 悬浮 */
+.水龙头 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.水龙头:hover, .水龙头:focus, .水龙头:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.拖鞋{
+  position: absolute;
+  left:1050px;
+  top:580px
+}
+
+/* 悬浮 */
+.拖鞋 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.拖鞋:hover, .拖鞋:focus, .拖鞋:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.title{
+  position: absolute;
+  left:300px;
+  top:200px
+}
+
+
+.flag1{
+  position: absolute;
+  left:200px;
+  top:240px
+}
+
+/* 悬浮 */
+.flag1 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.flag1:hover, .flag1:focus, .flag1:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.flag2{
+  position: absolute;
+  left:1370px;
+  top:810px
+}
+
+/* 悬浮 */
+.flag2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.flag2:hover, .flag2:focus, .flag2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.h6{
+  position: absolute;
+  left:900px;
+  top:90px
+}
+
+.h6_2{
+  position: absolute;
+  left:1200px;
+  top:90px
+}
+
+.h6_3{
+  position: absolute;
+  left:1500px;
+  top:90px
+}
